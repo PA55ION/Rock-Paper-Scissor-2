@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+
+    max-width: 100%;
+    height: auto;
+    background: #C6FFDD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD) fixed;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.score-board {
+    text-align: center;
+    border: 2px solid black;
+    width: 230px;
+    position: relative;
+    margin: 20px auto;
+    font-weight: bold;
+    padding: 15px;
+    height: 35px;
+}
+
+.label {
+    font-size: 14px;
+}
+
+#user {
+    position: absolute;
+    left: -15px;
+    top: 20px;
+    background: black;
+    width: 35px;
+    color: white;
+
+}
+
+#comp {
+    position: absolute;
+    right: -15px;
+    top: 20px;
+    width: 40px;
+    background: black;
+    color: white;
+}
+
+#user-score {
+    font-size: 35px;
+    position: relative;
+    white-space: 5px;
+}
+
+#comp-score {
+    font-size: 35px;
+    position: relative;
+    white-space: 5px;
+
+}
+
+.choices {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.choice {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 8px #888888;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+img {
+    width: 180px;
+}
+
+button {
+    width: 105px;
+    height: 45px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px black;
+
+}
