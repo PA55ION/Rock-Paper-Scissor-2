@@ -8,7 +8,7 @@ let userScore_span = document.getElementById('user-score');
 let compScore_span = document.getElementById('comp-score');
 let result = document.getElementById('result');
 let gameOver = false;
-let winningScores = 5;
+
 
 function playGame() {
     rock.addEventListener('click', () => game('Rock'));
