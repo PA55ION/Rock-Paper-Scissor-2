@@ -57,14 +57,14 @@ function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
-    result.innerHTML = userChoice + ' beats ' + computerChoice + ' You win';
+    result.innerHTML = userChoice + ' beats ' + computerChoice + ' You win 🤩';
 };
 
 function lose(userChoice, computerChoice) {
     compScore++;
     compScore_span.innerHTML = compScore;
     userScore_span.innerHTML = userScore;
-    result.innerHTML = userChoice + ' loses to ' + computerChoice + ' You Lose';
+    result.innerHTML = userChoice + ' loses to ' + computerChoice + ' You Lose 🤪';
 };
 
 function draw(userChoice, computerChoice) {
